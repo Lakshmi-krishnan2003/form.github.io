@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact form</title>
+  </head>
+  <h1>Online Booking Form</h1>
+  <h3>
+    please fill in the form below to get in touch with us and confirm your
+    booking
+  </h3>
+  <form>
+    <div class="container">
+      <label><br />Full name:</label><br />
+      <input
+        type="text"
+        placeholder="enter your name"
+        name="full name"
+        required
+      />
+      <label><br />Email:</label><br />
+      <input
+        type="text"
+        placeholder="enter your mail"
+        name="Email"
+        required
+      /><br />
+      <label for="datemin">Date of Birth:</label><br />
+      <input
+        type="date"
+        id="datemin"
+        name="datemin"
+        min="2000-01-02"
+      /><br /><br />
+    </div>
+    <div class="btn-box">
+      <button class="btn-1">START</button>
+    </div>
+  </form>
+</html>
